@@ -6,6 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>RxJava</name>
 	<description>RxJava Tutorial</description>
+	
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
@@ -19,7 +20,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 	<dependencies>
 		<dependency>
