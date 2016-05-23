@@ -2,6 +2,7 @@ package com.donbest.lambda.tutorial07;
 
 public class Driver {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Factory factory = new Factory();
 
