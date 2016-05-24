@@ -1,30 +1,27 @@
 package com.donbest.lambda.tutorial07;
 
 public interface IShape {
-	void sketch();
+	public void sketch();
 }
 
-class rectangle implements IShape {
-
+class Rectangle implements IShape {
 	@Override
 	public void sketch() {
-		System.out.println("Rectangle.sketch() method invoked...");
+		System.out.println("Rectangle.sketch() method is invoked...");
 	}
 
 	@Override
 	public String toString() {
 		return "Rectangle";
 	}
-
 }
 
 class Triangle implements IShape {
-
 	@Override
 	public void sketch() {
-		System.out.println("Triangle.sketch() method invoked...");
+		System.out.println("Triangle.sketch() method is invoked...");
 	}
-
+	
 	@Override
 	public String toString() {
 		return "Triangle";
@@ -32,10 +29,9 @@ class Triangle implements IShape {
 }
 
 class Circle implements IShape {
-
 	@Override
 	public void sketch() {
-		System.out.println("Circle.sketch() method invoked...");
+		System.out.println("Circle.sketch() method is invoked...");
 	}
 
 	@Override
